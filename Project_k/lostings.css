@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+    color:white;
+  
+}
+
+
+.success-message {
+    color: green; /* Change this to the desired color for the success message */
+    font-weight: bold;
+}
+
+
+
+@keyframes fadeInUp {
+from {
+opacity: 0;
+transform: translateY(100px);
+}
+to {
+opacity: 1;
+transform: translateY(0);
+}
+}
+
+/* .para{  
+    position:fixed;
+    display: block;
+    margin-top:80px;
+    margin-right:600px;
+    margin-left: 50px;
+    color:white;
+    font-size: 45px;
+    animation: fadeInUp 1s ease;
+} */
+
+h1 {
+    color:#007bff;
+    /* margin-left: 750px; */
+    margin-top: 0px;
+}
+
+h2 {
+    color:white;
+    font-size: 50px;
+    display: inline-block;
+    margin-right:500px;
+}
+
+.container {
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 450px;
+    border-style: solid;
+    border-color: #007bff;
+    position: inline-block;
+    /* margin-left: 770px; */
+}
+
+label {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 130%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* <?php
+session_start();
+if(!isset($_SESSION['Username'])){
+    header('location:login.php');
+}
+?> */

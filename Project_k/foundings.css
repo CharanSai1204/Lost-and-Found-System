@@ -1,0 +1,98 @@
+/* Resetting default margin and padding */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Animation for fadeInUp */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styling for the introductory paragraph */
+.para {
+    position: fixed;
+    display: block;
+    margin-top: 80px;
+    margin-right: 600px;
+    margin-left: 50px;
+    color: white;
+    font-size: 45px;
+    animation: fadeInUp 1s ease;
+}
+
+/* Styling for the h1 element */
+h1 {
+    color: #007bff;
+    margin-left: 750px;
+    margin-top: 0;
+}
+
+/* Styling for the form container */
+.container {
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 500px;
+    border: 1px solid #007bff;
+    display: inline-block;
+    margin-left: 770px;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    color: white;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Styling for text input, textarea, and date input */
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 100%; /* Adjust width as needed */
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+    display: block; /* Make inputs and textarea full width */
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Styling for buttons and button container */
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
